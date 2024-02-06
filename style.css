@@ -11,7 +11,7 @@
 }
 .sidebar{
 background-color:rgb(170, 243, 245);
-width: 300px;
+/* width: 300px; */
 height: 100vh;
 /* font-family: 'Oswald', sans-serif; */
 font-family: 'Poppins', sans-serif;
@@ -20,6 +20,7 @@ font-weight: bold;
 .main{
     /* background-color: yellow; */
     width: 85vw;
+    padding: 10px;
 }
 .sidebar nav{
     padding: 30px;
@@ -66,6 +67,7 @@ color: black;
 }
 .description{
     margin-top: 10px;
+    padding-right: 5px;
 }
 .btn button{
     padding: 5px;
@@ -88,4 +90,45 @@ color: black;
 .mypic img{
     height: 40vh;
     width: 20vw;
+}
+@media(min-width:400px) and (max-width:500px ){
+    .infocontainer{
+        flex-wrap: wrap;
+    }
+    .sidebar{
+        height: 105vh;
+    }
+}
+@media(min-width:300px) and (max-width:400px ){
+    .infocontainer{
+        flex-wrap: wrap;
+    }
+    .sidebar{
+        height: 120vh;
+    }
+}
+@media(max-width:300px ){
+    .infocontainer{
+        flex-wrap: wrap;
+    }
+    .sidebar{
+        height: 150vh;
+    }
+}
+.hamburger{
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+    left: 10px;
+}
+.ham{
+    width: 23px;
+}
+#cross{
+    width: 23px;
+    margin-left: 90px;
+}
+.sidebargo{
+    transform: translate(-443px,0px);
+    position: absolute;
 }

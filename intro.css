@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+background-color:rgb(170, 243, 245);
+width: 300px;
+height: 120vh;
+/* font-family: 'Oswald', sans-serif; */
+font-family: 'Poppins', sans-serif;
+font-weight: bold;
+}
+.main{
+    /* background-color: yellow; */
+    width: 85vw;
+}
+.sidebar nav{
+    padding: 30px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 30px 0;
+}
+#nav a{
+text-decoration: none;
+color: black;
+}
+#nav a:hover{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+/* .skillconatiner{
+
+} */
+.myintro h2{
+    margin: 20px;
+}
+.myintro p{
+    margin: 20px;
+}
+.skillcontainer h2{
+    margin: 20px;
+}
+.skillset{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-weight: bold;
+}
+.skill{
+    height: 10px;
+    width: 350px;
+    background-color: red;
+    display: flex;
+}
+.filled{
+    height: 10px;
+    width: 50px;
+    background-color: aqua;
+}
+.projectcontainer h2{
+    margin: 20px;
+}
+.projectcontainer dt{
+    margin: 20px 0px 0px 20px;
+    font-weight: bold;
+}
+.projectcontainer dd{
+    margin: 0px 0px 0px 20px;
+}
